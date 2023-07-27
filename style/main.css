@@ -315,7 +315,7 @@ a:hover {
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
 
-  background: #348cb2 url("/assets/image/bg.jpg") bottom left;
+  background: #348cb2 url("../assets/image/bg.jpg") bottom left;
   background-repeat: repeat-x;
   height: 100%;
   left: 0;
@@ -441,8 +441,8 @@ a:hover {
   -ms-animation: overlay 1.5s 1.5s forwards;
   animation: overlay 1.5s 1.5s forwards;
   background-attachment: fixed, fixed;
-  background-image: url("/assets/image/overlay-pattern.png"),
-    url("/assets/image/overlay.svg");
+  background-image: url("../assets/image/overlay-pattern.png"),
+    url("../assets/image/overlay.svg");
   background-position: top left, center center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
